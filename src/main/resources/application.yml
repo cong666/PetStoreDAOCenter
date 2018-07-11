@@ -1,0 +1,15 @@
+spring:
+  profiles: default
+datasource:
+  petstore:
+    url: jdbc:mysql://localhost:3306/pet_store_springboot
+    username: root
+    password: root
+    driverClassName: com.mysql.jdbc.Driver
+    defaultSchema:
+    maxPoolSize: 20
+    hibernate:
+      hbm2ddl.method: update
+      show_sql: true
+      format_sql: true
+      dialect: org.hibernate.dialect.MySQL5Dialect
