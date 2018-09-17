@@ -27,3 +27,12 @@ into Spring Cloud Netflix.
 >PetStore ---> Eureka service provider which provide one part our our restful web service which will be consumed by PetStoreWeb
 
 >PetStoreWeb ---> Frond-end interface and backend which consume PetStore
+
+# Which Spring Cloud frameworks will be used 
+
+- **Eureka** Service registration and discovery
+- **Eureka** Service provider and consumer
+- load balancing with **Ribbon**
+- **Hystrix** for circuit breaker
+- **Feign** for simplifying the http request 
+- **Zuul** for its smart Routing Service
