@@ -18,6 +18,9 @@ into Spring Cloud Netflix.
 
 # Architecture
 
+![PetStore Page Show1](https://github.com/cong666/githubimage/blob/master/github_petstore_show1.png)
+
+
 >PetStoreParent ---> General dependencies defined for this project
 
 >PetStoreEurekaServer ---> Eureka registration and discovery center
